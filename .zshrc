@@ -89,3 +89,8 @@ ${hg_info}\
 ${git_info}
 %{$terminfo[bold]$fg[red]%}$ %{$reset_color%}"
 fi
+
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/projects
+source /usr/bin/virtualenvwrapper.sh
+export VIRTUALENV_PYTHON=/usr/bin/python3.6
