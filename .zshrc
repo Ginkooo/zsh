@@ -95,3 +95,13 @@ export PROJECT_HOME=$HOME/projects
 source /usr/bin/virtualenvwrapper.sh
 export VIRTUALENV_PYTHON=/usr/bin/python3.6
 export EDITOR=nvim
+
+#toggle vim mode zsh
+bindkey -v
+bindkey '^P' up-history
+bindkey jj vi-cmd-mode
+bindkey '^N' down-history
+bindkey '^?' backward-delete-char
+bindkey '^h' backward-delete-char
+bindkey '^w' backward-kill-word
+bindkey '^r' history-incremental-search-backward
