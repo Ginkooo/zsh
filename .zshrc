@@ -96,7 +96,8 @@ source /usr/bin/virtualenvwrapper.sh
 export VIRTUALENV_PYTHON=/usr/bin/python3.6
 export EDITOR=vim
 
-if [ hostname = "Hephaestus" ]
+HOSTNAME=$(hostname)
+if [[ $HOSTNAME = "Hephaestus" ]]
 then
     workon communicationhub
     fortune
