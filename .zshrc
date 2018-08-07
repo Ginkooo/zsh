@@ -101,5 +101,5 @@ if [[ $HOSTNAME = "Hephaestus" ]]
 then
     workon communicationhub
     fortune
-    cd /home/ginkooo/CommunicationHub/RestApi
+    cd /home/ginkooo/CommunicationHub/RestApi/CommunicationHubRestApi
 fi
