@@ -93,7 +93,7 @@ fi
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/projects
 source /usr/bin/virtualenvwrapper.sh
-export VIRTUALENV_PYTHON=/usr/bin/python
+export VIRTUALENV_PYTHON=/usr/bin/python3.7
 export EDITOR=vim
 
 HOSTNAME=$(hostname)
