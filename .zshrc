@@ -96,10 +96,5 @@ source /usr/bin/virtualenvwrapper.sh
 export VIRTUALENV_PYTHON=/usr/bin/python3.7
 export EDITOR=vim
 
-HOSTNAME=$(hostname)
-if [[ $HOSTNAME = "Hephaestus" ]]
-then
-    workon communicationhub
-    fortune
-    cd /home/ginkooo/CommunicationHub/RestApi/CommunicationHubRestApi
-fi
+alias cp='cp -i'
+alias mv='mv -i'
